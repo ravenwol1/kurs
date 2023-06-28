@@ -1,5 +1,5 @@
-@mixin font($fz, $ffam, $fcol){
-    font-size: $fz;
-    font-family: $ffam;
-    color: $fcol;
+@mixin font($fz, $ffam, $fcol) {
+  font-size: $fz;
+  font-family: $ffam;
+  color: $fcol;
 }

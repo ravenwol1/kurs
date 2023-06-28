@@ -1,25 +1,18 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    scroll-behavior: smooth;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-  }
-  section{
-    padding: 15px 50px 50px;
-    max-width: 1170px;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+section {
+  padding: 15px 15px 15px;
+  max-width: 1170px;
   margin: 0 auto;
   margin-top: 7rem;
-  // padding: 0 15px;
-  }
-  // footer{
-  //   padding: 15px 50px 50px;
-  //   max-width: 1170px;
-  // margin: 0 auto;
-  // margin-top: 7rem;
-  // }
-  .container{
-    max-width: 1086px;
-    margin: 0 auto;
+}
+.container {
+  max-width: 1086px;
+  margin: 0 auto;
   padding: 0 15px;
-  }
+}

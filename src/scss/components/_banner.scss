@@ -3,17 +3,17 @@
   width: 100%vw;
   position: relative;
   background-color: blueviolet;
-  background-image: url(/src/assets/banner-background.png)  ;
+  background-image: url(/src/assets/banner-background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
-  &__zal{
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  &__zal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
   }
   &__header {
     position: relative;
@@ -25,7 +25,6 @@
     grid-column: 1/2;
   }
   &__header-nav {
-    
     grid-column: 3/4;
     display: flex;
     gap: 2rem;
@@ -41,15 +40,14 @@
   }
   &__header-nav-link-a {
     font-size: 1.15rem;
-    color: #FFFFFF;
+    color: #ffffff;
 
     text-decoration: none;
-    
   }
-  &__header-nav-link-a:hover{
+  &__header-nav-link-a:hover {
     color: red;
   }
-  &__header-nav-link-a:active{
+  &__header-nav-link-a:active {
     color: yellow;
   }
   &__content {
@@ -62,7 +60,6 @@
     max-width: 60rem;
   }
   &__content-main {
-   
     font-size: 2.8rem;
     padding-top: 6rem;
   }
@@ -92,11 +89,7 @@
     border-radius: 1.25rem;
     position: relative;
     bottom: -7.5rem;
-    // left: 7.5rem;
-
     gap: 5rem;
-    // left: 0;
-    // width: 70rem;
   }
   &__footer-request-inp {
     color: #ffffff;
@@ -109,33 +102,32 @@
   }
 }
 
-
 @media screen and (max-width: 950px) {
-  .banner__header{
+  .banner__header {
     display: flex;
     justify-content: space-around;
     position: relative;
   }
-  .banner__header-logo{
+  .banner__header-logo {
     position: absolute;
     left: 0;
   }
-  .banner__header-menu-btn{
+  .banner__header-menu-btn {
     right: 0;
   }
-  .banner__header-nav{
+  .banner__header-nav {
     display: none;
   }
-  .banner__header-btn{
+  .banner__header-btn {
     display: none;
   }
-  .banner__content-img{
+  .banner__content-img {
     display: none;
   }
-  .banner__content{
+  .banner__content {
     padding-top: 1rem;
   }
-  .banner__footer{
+  .banner__footer {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -146,7 +138,7 @@
   }
 }
 @media screen and (min-width: 950px) {
-  .banner__header-menu-btn{
+  .banner__header-menu-btn {
     display: none;
   }
 }

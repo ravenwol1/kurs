@@ -8,7 +8,7 @@
 }
 
 section {
-  padding: 15px 50px 50px;
+  padding: 15px 15px 15px;
   max-width: 1170px;
   margin: 0 auto;
   margin-top: 7rem;
@@ -21,11 +21,11 @@ section {
 }
 
 button {
-  background-color: #F5167E;
+  background-color: #f5167e;
   border: none;
   cursor: pointer;
   font-family: "DM Sans", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0.7rem 2.3rem;
   border-radius: 1.7rem;
 }
@@ -84,7 +84,7 @@ button:active {
 }
 .banner__header-nav-link-a {
   font-size: 1.15rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 .banner__header-nav-link-a:hover {
@@ -424,7 +424,7 @@ select:hover {
 .brand__head-descr {
   margin: 1.5rem;
   font-size: 1.3rem;
-  color: #6A6A6A;
+  color: #6a6a6a;
 }
 .brand__links {
   display: -webkit-box;
@@ -440,6 +440,7 @@ select:hover {
       flex-wrap: wrap;
   gap: 1rem;
 }
+
 .blog {
   text-align: center;
 }
@@ -561,7 +562,7 @@ select:hover {
 }
 .footer__copy {
   border-top: solid 1px;
-  border-color: #4C4D8B;
+  border-color: #4c4d8b;
   max-width: 100%;
   padding: 1rem;
 }

@@ -1,10 +1,10 @@
 .footer {
   padding: 1rem;
-    text-align: center;
+  text-align: center;
   margin: 0 20 0 20;
   color: #ffffff;
   background-color: #0a075f;
- 
+
   &__cont {
     padding: 3rem;
     display: grid;
@@ -12,57 +12,54 @@
     grid-auto-flow: dense;
     justify-content: center;
   }
-  &__cont-nft{
+  &__cont-nft {
     max-width: 24rem;
     grid-column: 1;
   }
-  &__cont-marketplace{
+  &__cont-marketplace {
     max-width: 11rem;
     grid-column: 3/4;
   }
-  &__cont-eventick{
+  &__cont-eventick {
     max-width: 12rem;
     grid-column: 5/6;
   }
-  &__cont-subscribe-field{
+  &__cont-subscribe-field {
     max-width: 26;
-    grid-column: 7/span 1;
+    grid-column: 7 / span 1;
   }
-  &__cont-nft-descr{
+  &__cont-nft-descr {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-  &__cont-nft-bottom{
+  &__cont-nft-bottom {
     display: flex;
     gap: 1rem;
   }
-  &__cont-subscribe-field-cont{
+  &__cont-subscribe-field-cont {
     font-size: 1.3rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
-  
-  &__copy{
+  &__copy {
     border-top: solid 1px;
-    border-color: #4C4D8B;
+    border-color: #4c4d8b;
     max-width: 100%;
     padding: 1rem;
   }
 }
-.container{
+.container {
   text-align: start;
 }
-
 @media screen and (max-width: 1366px) {
-  .footer__cont{
+  .footer__cont {
     display: flex;
     flex-direction: column;
-   align-items: center;
-   text-align: center;
-   gap: 1.5rem;
-  
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
   }
-  .footer__cont-nft-bottom{
+  .footer__cont-nft-bottom {
     display: flex;
     justify-content: space-around;
   }

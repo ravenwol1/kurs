@@ -1,21 +1,18 @@
-.brand{
-text-align: center;
-&__head-title{
+.brand {
+  text-align: center;
+  &__head-title {
     font-size: 2.8rem;
-}
-&__head-descr{
+  }
+  &__head-descr {
     margin: 1.5rem;
     font-size: 1.3rem;
-    color: #6A6A6A;
-}
-&__links{
+    color: #6a6a6a;
+  }
+  &__links {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-}
-&__links-pic{
-    
-}
+  }
 }

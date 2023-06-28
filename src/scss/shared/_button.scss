@@ -1,18 +1,16 @@
-button{
-    background-color: #F5167E;
-    border: none;
+button {
+  background-color: #f5167e;
+  border: none;
   cursor: pointer;
-  font-family: 'DM Sans', sans-serif;
-  color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
   padding: 0.7rem 2.3rem;
   border-radius: 1.7rem;
 }
-button:hover{
- 
+button:hover {
   background-color: red;
 }
-button:active{
-
+button:active {
   background-color: blue;
   color: yellow;
 }
