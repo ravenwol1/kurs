@@ -1,5 +1,36 @@
-.create{
-    background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.create {
+  background-color: #eee1ff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  &__img {
+    position: absolute;
+    bottom: 0;
+  }
+  &__content {
+    grid-column: 2/-1;
+  }
+  &__content-head{
+    margin-top: 1rem;
+    font-size: 2.4rem;
+  }
+  &__content-descr{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  &__content-btn{
+    margin-top: 1.5rem;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.3rem;
+  }
+}
+@media screen  and (max-width: 950px) {
+  .create{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .create__img{
+    display: none;
+  }
 }

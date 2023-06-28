@@ -1,0 +1,69 @@
+.footer {
+  padding: 1rem;
+    text-align: center;
+  margin: 0 20 0 20;
+  color: #ffffff;
+  background-color: #0a075f;
+ 
+  &__cont {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: (24rem 10rem 11rem 5rem 12rem 8rem 26rem);
+    grid-auto-flow: dense;
+    justify-content: center;
+  }
+  &__cont-nft{
+    max-width: 24rem;
+    grid-column: 1;
+  }
+  &__cont-marketplace{
+    max-width: 11rem;
+    grid-column: 3/4;
+  }
+  &__cont-eventick{
+    max-width: 12rem;
+    grid-column: 5/6;
+  }
+  &__cont-subscribe-field{
+    max-width: 26;
+    grid-column: 7/span 1;
+  }
+  &__cont-nft-descr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  &__cont-nft-bottom{
+    display: flex;
+    gap: 1rem;
+  }
+  &__cont-subscribe-field-cont{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  &__copy{
+    border-top: solid 1px;
+    border-color: #4C4D8B;
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+.container{
+  text-align: start;
+}
+
+@media screen and (max-width: 1366px) {
+  .footer__cont{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 1.5rem;
+  
+  }
+  .footer__cont-nft-bottom{
+    display: flex;
+    justify-content: space-around;
+  }
+}

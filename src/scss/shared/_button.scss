@@ -5,5 +5,14 @@ button{
   font-family: 'DM Sans', sans-serif;
   color: #FFFFFF;
   padding: 0.7rem 2.3rem;
-  border-radius: 1.6rem;
+  border-radius: 1.7rem;
+}
+button:hover{
+ 
+  background-color: red;
+}
+button:active{
+
+  background-color: blue;
+  color: yellow;
 }

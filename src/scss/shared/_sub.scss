@@ -1,0 +1,33 @@
+.footer__cont-subscribe-field-email {
+  background-color: rgba(0, 125, 215, 0);
+  position: relative;
+}
+.footer__cont-subscribe-field-email-sub {
+    position: absolute;
+  background-color: #f5167e;
+  border: none;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  padding: 0.7rem 2.3rem;
+  border-radius: 1.7rem;
+  top: 0.3rem;
+  right: 0.4rem;
+  font-size: 0.7rem;
+}
+.footer__cont-subscribe-field-email-sub:hover{
+  background-color: red;
+}
+.footer__cont-subscribe-field-email-sub:active{
+  background-color: blue;
+  color: yellow;
+}
+.footer__cont-subscribe-field-email-reg{
+    width: 100%;
+  border: none;
+font-size: 0.7rem;
+  font-family: "DM Sans", sans-serif;
+  color: black;
+  padding: 1rem 2.3rem;
+  border-radius: 1.7rem;
+}

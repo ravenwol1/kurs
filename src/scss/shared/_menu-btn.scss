@@ -19,6 +19,9 @@
   background-color: red;
   transition: all 0.5s;
 }
+.banner__header-menu-btn-line:hover{
+  background-color: green;
+}
 .banner__header-menu-btn-line:nth-of-type(2) {
   top: calc(50% - 6px);
 }
